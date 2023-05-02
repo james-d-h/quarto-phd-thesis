@@ -1,4 +1,3 @@
-# readme.md
 
 # Quarto PhD Data Science Thesis Template: Edinburgh University 
 
