@@ -59,6 +59,12 @@ cd quarto-phd-thesis
 quarto render
 ```
 
+3. This will generate the output files in the `_book` directory within the `quarto-phd-thesis` folder.
+4. Open the output files (such as `uoe-thesis.pdf`) with your preferred PDF viewer or web browser to see the final result.
+
+### Make Changes and Rebuild
+1. After making changes to the source files, run `quarto render` again to update the output files.
+
 # Further Details for Customising
 
 This Thesis template uses Roman numeral page numbering for front matter sections and Arabic numeral page numbering for the main content. Page numbering counter starts on page 3 to skip the cover sheet, you can comment that out in before-body.tex. Dedication, Title-page, declaration, abstract and acknowledgements are optional. The template also allows glossaries to be written in Markdown (I find it much simpler), but distributes TOCs, LOTs, LOFs to latex (also simplere/more flexible). Example Glossary of abbreviations, symbols, and definitions are within. The table of contents, list of figures, and list of tables can be commented out within the toc.tex file. before-body.tex can be used to drop whatever preamble sections you won't need. 
