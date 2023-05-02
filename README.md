@@ -77,3 +77,7 @@ This template requires Quarto and LaTeX to be installed on your system. Please r
 ## License
 
 This template is released under the MIT License.
+
+## Disclaimer
+
+This repository is a datascience product and is not official communication of the Edinburgh University, nor any of the cited contributors. 
