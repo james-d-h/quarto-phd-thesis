@@ -1,6 +1,6 @@
 # readme.txt
 
-# Quarto PhD Thesis Template 
+# Quarto Template PhD Thesis - Edinburgh University 
 
 This repository contains a custom Quarto template designed for my PhD thesis at the University of Edinburgh. It can be easily adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
 
