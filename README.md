@@ -1,4 +1,4 @@
-# readme.txt
+# readme.md
 
 # Quarto Template PhD Thesis - Edinburgh University 
 
