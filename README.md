@@ -2,7 +2,7 @@
 
 # Quarto Template: PhD Thesis Edinburgh University 
 
-This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
+This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses. Quarto is a flexible tool for integrating various file markdownlanguages and computational code in a single docuemnt, including .ipynb, .qmd, .md, and .txt.
 
 <p align="center">
   <img src="./examples/title-page.png" alt="title-page" width="24.5%" />
@@ -14,8 +14,6 @@ This repository contains a Quarto template - PhD thesis at the University of Edi
 [Full PDF preview available here](_book/quarto-phd-template.pdf)
 
 ## Introduction
-
-Quarto is a flexible tool for integrating various file markdownlanguages and computational code in a single docuemnt, including .ipynb, .qmd, .md, and .txt.
 
 This Thesis template uses Roman numeral page numbering for front matter sections and Arabic numeral page numbering for the main content. Page numbering counter starts on page 3 to skip the cover sheet, you can comment that out in before-body.tex. Dedication, Title-page, declaration, abstract and acknowledgements are optional. The template also allows glossaries to be written in Markdown (I find it much simpler), but distributes TOCs, LOTs, LOFs to latex (also simplere/more flexible). Example Glossary of abbreviations, symbols, and definitions are within. The table of contents, list of figures, and list of tables can be commented out within the toc.tex file. before-body.tex can be used to drop whatever preamble sections you won't need. 
 
