@@ -11,11 +11,11 @@
   <img src="./examples/figures.png" alt="figures" width="24.5%" />
 </p>
 
-# Install
+# Install & Usage
 
 Follow the steps below to clone, customize, and build the document.
 
-## Prerequisites
+### Prerequisites
 
 1. Install Python: Download and install Python from the official website: https://www.python.org/downloads
 2. Install JupyterLab: Follow the installation instructions on the official JupyterLab website: https://jupyter.org/install
@@ -23,10 +23,7 @@ Follow the steps below to clone, customize, and build the document.
 4. Install Quarto: Follow the installation instructions on the official Quarto website: https://quarto.org/docs/installation.html
 5. Install JetBrains Mono font and STIX 2 (Google Fonts) for Math font https://github.com/JetBrains/JetBrainsMono. You may need to reset your matplotlib font cache.
 
-## Usage
-
 ### Clone the Repository
-
 1. Open a terminal or command prompt.
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command to clone the repository:
@@ -58,7 +55,7 @@ cd quarto-phd-thesis
 quarto render
 ```
 
-## Introduction
+# Further Details for Customising
 
 This Thesis template uses Roman numeral page numbering for front matter sections and Arabic numeral page numbering for the main content. Page numbering counter starts on page 3 to skip the cover sheet, you can comment that out in before-body.tex. Dedication, Title-page, declaration, abstract and acknowledgements are optional. The template also allows glossaries to be written in Markdown (I find it much simpler), but distributes TOCs, LOTs, LOFs to latex (also simplere/more flexible). Example Glossary of abbreviations, symbols, and definitions are within. The table of contents, list of figures, and list of tables can be commented out within the toc.tex file. before-body.tex can be used to drop whatever preamble sections you won't need. 
 
@@ -105,15 +102,6 @@ The repository is organized to mirror the structure of the thesis document. The 
 │   ├── title.tex              # Defines variables from the .yml file for use in the title page
 │   └── toc.tex                # Contains the TOC, LOF, LOTs, which you can delete as required
 ```
-
-## Usage
-
-1. Clone this repository or download it as a ZIP archive.
-
-
-## Requirements
-
-This template requires Quarto and LaTeX to be installed on your system. Please refer to the Quarto documentation and LaTeX project website for installation instructions. 
 
 ## License
 
