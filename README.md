@@ -4,11 +4,12 @@
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <img src="./examples/title-page.png" alt="title-page" flex-basis: 23%;"/>
-  <img src="./examples/declaration.png" alt="declaration" flex-basis: 23%;"/>
-  <img src="./examples/chapter-01.png" alt="chapter-01" flex-basis: 23%;"/>
-  <img src="./examples/figures.png" alt="figures" flex-basis: 23%;"/>
+  <img src="./examples/title-page.png" alt="title-page" style="flex-basis: 23%;"/>
+  <img src="./examples/declaration.png" alt="declaration" style="flex-basis: 23%;"/>
+  <img src="./examples/chapter-01.png" alt="chapter-01" style="flex-basis: 23%;"/>
+  <img src="./examples/figures.png" alt="figures" style="flex-basis: 23%;"/>
 </div>
+
 
 This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
 
