@@ -2,20 +2,18 @@
 
 # Quarto Template PhD Thesis - Edinburgh University 
 
-This repository contains a custom Quarto template designed for my PhD thesis at the University of Edinburgh. It can be easily adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
+This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
 
 [PDF preview available here](_book/quarto-phd-template.pdf) 
 
 ## Introduction
 
-This repository contains a custom Quarto template designed for my PhD theses at the University of Edinburgh. However, it can be easily adapted for general use or for other institutions or similar use cases. This template provides a flexible structure for integrating various file formats, including .ipynb, .qmd, .md, and .txt rendering in one place - but can simplified where that is not needed. This template features Roman numeral page numbering for front matter sections and Arabic numeral page numbering for the main content. Page numbering counter starts on page 3 to skip the cover sheet, you can comment that out in before-body.tex.
+Quarto is a flexible tool for integrating various file markdownlanguages and computational code in a single docuemnt, including .ipynb, .qmd, .md, and .txt.
 
-The template includes front matter examples with custom LaTeX formatting for dedication, title, declaration, and abstract preamble sections. The template also allows glossaries to be written in Markdown (I find it much simpler), but distributes TOCs, LOTs, LOFs to latex (also simplere/more flexible). Example Glossary of abbreviations, symbols, and definitions are within. The table of contents, list of figures, and list of tables can be commented out within the toc.tex file. before-body.tex can be used to drop whatever preamble sections you won't need. 
-
-A simple function is provided in create-chapter.ipynb, calling it will generate new chapters and associated resource folders (see Chapter 1). The ascii-dir script just creates repository structures drawingls like that below.
+This Thesis template uses Roman numeral page numbering for front matter sections and Arabic numeral page numbering for the main content. Page numbering counter starts on page 3 to skip the cover sheet, you can comment that out in before-body.tex. Dedication, Title-page, declaration, abstract and acknowledgements are optional. The template also allows glossaries to be written in Markdown (I find it much simpler), but distributes TOCs, LOTs, LOFs to latex (also simplere/more flexible). Example Glossary of abbreviations, symbols, and definitions are within. The table of contents, list of figures, and list of tables can be commented out within the toc.tex file. before-body.tex can be used to drop whatever preamble sections you won't need. 
 
 ## Repository / Thesis Structure
-The repository is organized to mirror the structure of the thesis document. The index.qmd and _quarto.yml files can be edited as needed, but they cannot be deleted or renamed. The following diagram provides an overview of the template structure. Consult the code in the repository for a better understanding of how Quarto ties everything together.
+The repository is organized to mirror the structure of the thesis document. The index.qmd and _quarto.yml files can be edited as needed, but they cannot be deleted or renamed. The following diagram provides an overview of the template structure. Consult the code in the repository for a better understanding of how Quarto ties everything together. You can call the code-cell in create-chapter.ipynb to generate new chapters and associated resource folders (see Chapter 1 example). The ascii-dir script reates repository structure drawingls like that below.
 
 ```python
 ├── _book/
