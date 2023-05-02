@@ -1,5 +1,10 @@
 
+
+
+
 # Quarto PhD Data Science Thesis Template: Edinburgh University 
+
+
 
 [PDF preview click here](_book/quarto-phd-template.pdf), select pages:
 
