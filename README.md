@@ -3,10 +3,10 @@
 # Quarto Template PhD Thesis - Edinburgh University 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="./examples/title-page.png" alt="title-page" width="230" style="margin-bottom: 10px; flex-basis: 75%;"/>
-  <img src="./examples/declaration.png" alt="declaration" width="230" style="margin-bottom: 10px; flex-basis: 75%;"/>
-  <img src="./examples/chapter-01.png" alt="chapter-01" width="230" style="margin-bottom: 10px; flex-basis: 75%;"/>
-  <img src="./examples/figures.png" alt="figures" width="230" style="margin-bottom: 10px; flex-basis: 75%;"/>
+  <img src="./examples/title-page.png" alt="title-page" width="230" flex-basis: 23%;"/>
+  <img src="./examples/declaration.png" alt="declaration" width="230" flex-basis: 23%;"/>
+  <img src="./examples/chapter-01.png" alt="chapter-01" flex-basis: 23%;"/>
+  <img src="./examples/figures.png" alt="figures" flex-basis: 23%;"/>
 </div>
 
 This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
