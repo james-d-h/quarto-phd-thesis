@@ -2,6 +2,7 @@
 
 # Quarto Template PhD Thesis - Edinburgh University 
 
+
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="./examples/title-page.png" alt="title-page" width="230" flex-basis: 23%;"/>
   <img src="./examples/declaration.png" alt="declaration" width="230" flex-basis: 23%;"/>
