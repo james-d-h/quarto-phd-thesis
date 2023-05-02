@@ -1,8 +1,8 @@
 # readme.md
 
-# Quarto Template: PhD Thesis Edinburgh University 
+# Quarto PhD Data Science Thesis Template: Edinburgh University 
 
-This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses. Quarto is a flexible tool for integrating various file markdownlanguages and computational code in a single docuemnt, including .ipynb, .qmd, .md, and .txt.
+[PDF preview click here](_book/quarto-phd-template.pdf), select pages:
 
 <p align="center">
   <img src="./examples/title-page.png" alt="title-page" width="24.5%" />
@@ -11,7 +11,52 @@ This repository contains a Quarto template - PhD thesis at the University of Edi
   <img src="./examples/figures.png" alt="figures" width="24.5%" />
 </p>
 
-[Full PDF preview available here](_book/quarto-phd-template.pdf)
+# Install
+
+Follow the steps below to clone, customize, and build the document.
+
+## Prerequisites
+
+1. Install Python: Download and install Python from the official website: https://www.python.org/downloads
+2. Install JupyterLab: Follow the installation instructions on the official JupyterLab website: https://jupyter.org/install
+3. Install Git: Download and install Git from the official website: https://git-scm.com/downloads
+4. Install Quarto: Follow the installation instructions on the official Quarto website: https://quarto.org/docs/installation.html
+5. Install JetBrains Mono font and STIX 2 (Google Fonts) for Math font https://github.com/JetBrains/JetBrainsMono. You may need to reset your matplotlib font cache.
+
+## Usage
+
+### Clone the Repository
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command to clone the repository:
+
+```python
+git clone https://github.com/james-d-h/quarto-phd-thesis.git
+```
+
+### Customize the Document
+1. Navigate to the cloned repository directory:
+
+```python
+cd quarto-phd-thesis
+```
+
+2. Open the source files (e.g., `.qmd` files) with a text editor, an integrated development environment (IDE) that supports Quarto or Markdown, or with JupyterLab.
+3. Customize the content by editing the source files, adding your own text, figures, tables, and citations. More details in the dir walkthrough below quarto.org
+4. Customize the template to fit your specific requirements by modifying the content in the frontmatter, if necessary. 
+3. Modify the _configs file to format graph or figure styling (see Chapter 1 for examples)
+4. Run the create-chapter.ipynb notebook to generate new chapter folders and resource folders as needed.
+5. Use the ascii-dir script to visualize the structure of your repository at single or full levels.
+6. Call quarto render in the terminal in the main directory.
+### Build the Document
+
+1. In the terminal or command prompt, make sure you are in the `quarto-phd-thesis` directory.
+2. Run the following command to build the document:
+
+```python
+quarto render
+```
 
 ## Introduction
 
@@ -64,11 +109,7 @@ The repository is organized to mirror the structure of the thesis document. The 
 ## Usage
 
 1. Clone this repository or download it as a ZIP archive.
-2. Customize the template to fit your specific requirements by modifying the content in the frontmatter, chapter-*, and endmatter folders. 
-3. Modify the _configs file to format graph or figure styling (see Chapter 1 for examples)
-4. Run the create-chapter.ipynb notebook to generate new chapter folders and resource folders as needed.
-5. Use the ascii-dir script to visualize the structure of your repository at single or full levels.
-6. Call quarto render in the terminal in the main directory.
+
 
 ## Requirements
 
