@@ -1,6 +1,12 @@
-# quarto-phd-thesis readme.txt
+# readme.txt
 
-This repository contains a custom Quarto template designed for my PhD thesis at the University of Edinburgh, it is not exactly to specifications. However, it can be easily adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
+# Quarto PhD Thesis Template 
+
+
+
+This repository contains a custom Quarto template designed for my PhD thesis at the University of Edinburgh. [PDF preview available here](_book/quarto-phd-template.pdf) 
+
+It can be easily adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
 
 ## Introduction
 
@@ -13,7 +19,7 @@ A simple function is provided in create-chapter.ipynb, calling it will generate 
 ## Repository / Thesis Structure
 The repository is organized to mirror the structure of the thesis document. The index.qmd and _quarto.yml files can be edited as needed, but they cannot be deleted or renamed. The following diagram provides an overview of the template structure. Consult the code in the repository for a better understanding of how Quarto ties everything together.
 
-```txt
+```md
 ├── _book/
 │   └── uoe-thesis.pdf         # calling quarto render from terminal produces your thesis here
 ├── _configs/                  # A folder for global config files; reproducible/consistent plots all Thesis 
