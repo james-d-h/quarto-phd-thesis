@@ -1,0 +1,28 @@
+\begin{table}[]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lll}
+\hline
+\textbf{Parameter}                 & \textbf{Spaceborne}                                      & \textbf{Airborne}                 \\ \hline
+Time of overpass                   & Mostly fixed                                             & Flexible                          \\
+Spatial resolution &
+  GSD \textless 0.5 m panchromatic / \textless 2km multi-band &
+  Ground Sampling Distance (GSD) \textless 5 m \\
+Spectral resolution                & Panchromatic to multispectral, some hyper-spectral       & Panchromatic to hyperspectral     \\
+Temporal resolution & Days                                                     & Minutes                           \\
+Calibration                        & Pre-calibration before launch, onboard characterisation & Before launch + possible on-board \\
+Cost                               & Free to $\sim$\$2–10k per scene (High res)               & \$350 per square mile             \\
+Stability                          & High                                                     & Low, due to turbulence            \\
+Swath width &
+  High - 2500 km to full hemisphere  &
+  \begin{tabular}[c]{@{}l@{}}Small (up to 10 km per\\ flight line)\end{tabular} \\
+Interpretation approaches          & Empirical-and semi-empirical mostly                      & Empirical and analytical          \\
+Image processing complexity    & Less complex vs. hyper-spectral sensors                  & More complex, specific skills     \\
+Constraints                        & Fixed spatiotemporal resolution / weather constraints    & Coverage schedule is flexible     \\
+Geographic coverage areas          & Local, regional, and global                              & Local and regional                \\ \hline
+                                   &                                                          &                                  
+\end{tabular}%
+}
+\caption{Comparison between spaceborne and airborne sensors.}
+\label{tab:my-table}
+\end{table}

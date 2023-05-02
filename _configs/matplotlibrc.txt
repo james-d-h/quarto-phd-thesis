@@ -1,0 +1,140 @@
+# matplotlibrc
+
+axes.autolimit_mode: data
+axes.axisbelow: line
+axes.edgecolor: black
+axes.facecolor: white
+
+axes.formatter.min_exponent: 0
+axes.formatter.offset_threshold: 0
+axes.formatter.use_locale: False
+axes.formatter.use_mathtext: True
+axes.formatter.useoffset: True
+axes.grid: True
+axes.grid.axis: both
+axes.grid.which: major
+axes.labelcolor: black
+axes.labelpad: 0
+axes.labelsize: 11
+axes.labelweight: normal
+axes.linewidth: 1.0
+#axes.prop_cycle: cycler(color=['#0072B2', '#E69F00', '#F0E442', '#009E73', '#56B4E9', '#D55E00', '#CC79A7', '#000000']) % failing
+
+axes.spines.bottom: True
+axes.spines.left: True
+axes.spines.right: False
+axes.spines.top: False
+axes.titlepad: 6
+axes.titlesize: 11.5
+axes.titleweight: normal
+axes.unicode_minus: True
+axes.xmargin: 0.1
+axes.ymargin: 0.1
+
+figure.dpi: 150.0
+figure.figsize: 6, 4
+figure.frameon: False
+figure.autolayout: False
+figure.constrained_layout.use: False
+figure.subplot.bottom: 0.2
+figure.subplot.hspace: 0.1
+figure.subplot.left: 0.1
+figure.subplot.right: 0.9
+figure.subplot.top: 0.8
+figure.subplot.wspace: 0.2
+
+figure.titlesize: large
+figure.titleweight: normal
+font.family: JetBrains Mono
+font.size: 9
+font.stretch: normal
+font.style: normal
+font.variant: normal
+font.weight: normal
+
+grid.alpha: 0.53
+grid.color: 0.75
+grid.linestyle: :
+grid.linewidth: 0.5
+hatch.color: black
+hatch.linewidth: 1.0
+
+hist.bins: 20
+
+mathtext.fontset: custom
+mathtext.rm: STIX Two Math
+mathtext.it: STIX Two Math:italic
+mathtext.bf: STIX Two Math:bold
+mathtext.sf: STIX Two Math
+mathtext.tt: STIX Two Math
+mathtext.cal: STIX Two Math:script
+mathtext.default: rm
+
+savefig.bbox: standard
+savefig.directory: figs # figure save folder
+savefig.dpi: 300
+savefig.format: png
+savefig.frameon: False
+savefig.transparent: False
+
+text.antialiased: True
+text.color: black
+text.hinting: auto
+text.hinting_factor: 8
+text.latex.preamble: \\usepackage{newtxtextnewtxmath}
+text.latex.preview: False
+text.latex.unicode: True
+text.usetex: False
+
+legend.loc: best
+legend.fontsize: 10
+legend.frameon: False
+legend.edgecolor: None
+lines.linewidth: 2
+lines.markersize: 6
+
+xtick.alignment: center
+xtick.bottom: True
+xtick.top: False
+
+xtick.color: black
+xtick.direction: out
+xtick.labelbottom: True
+xtick.labelsize: 8
+xtick.labeltop: False
+
+xtick.major.bottom: True
+xtick.major.pad: 3.5
+xtick.major.size: 3.5
+xtick.major.top: True
+xtick.major.width: 0.8
+xtick.minor.bottom: True
+xtick.minor.pad: 3.4
+xtick.minor.size: 2.0
+xtick.minor.top: True
+xtick.minor.visible: True
+xtick.minor.width: 0.6
+
+ytick.alignment: center_baseline
+ytick.color: black
+ytick.direction: out
+ytick.labelleft: True
+ytick.labelright: False
+ytick.labelsize: 8
+ytick.left: True
+ytick.right: False
+
+ytick.major.left: True
+ytick.major.pad: 3.5
+ytick.major.right: True
+ytick.major.size: 3.5
+ytick.major.width: 0.8
+
+ytick.minor.left: True
+ytick.minor.pad: 3.4
+ytick.minor.right: True
+ytick.minor.size: 2.0
+ytick.minor.visible: True
+ytick.minor.width: 0.6
+
+# Add more settings as needed

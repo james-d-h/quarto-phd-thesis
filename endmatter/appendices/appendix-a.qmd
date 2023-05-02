@@ -1,0 +1,4 @@
+# Appendix A {.appendix} 
+
+You can write appendixes in the same way as chapters. Just add the class `appendix` to the header.
+Be sure to add it as an appendix in `_quarto.yml` as well.

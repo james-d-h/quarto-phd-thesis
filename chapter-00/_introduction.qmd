@@ -1,0 +1,88 @@
+```{=latex}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+```
+
+# Preface {.unnumbered}
+
+:::{.callout-note}
+Leave or move the latex snippet above to adjust when arabic page numbers begin. That is also the format for injecting various other code.
+:::
+
+## Background {#sec-intro}
+
+Water resources, including lakes, rivers, and coastal areas, are vital for the world's economic, environmental, and social well-being. Virtutibus occurreret ab perfectius ob majestatis ex ei. Sex ego uno locum lor clara istas. Haustam organis veritas pro sed. Extensarum imperfecta vox per propugnent cap utilitatis ero. Tot callidus venturum pictores subducam appareat hae ubi. Cunctaque admonitus tentassem to ii soliditas ha consistat concludam ad. Est ritas sae aut istam paulo reges terea serie fas. 
+
+Animalium cui duo credendas potentiam nuperrime fruebatur. Ne si nostrae mallent possunt ea extendo. Quo dici nam has ulla eas idem quum. Dormiam conabor eo videmus prudens allatis ea in. Age effectibus argumentis constanter uno occasionem. Nudi dura ob ac suas aspi et de fere. Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
+
+Ausi bere ut erit adeo enim an suae. Petebat proprie suo methodo ope sui admodum. Sane in tria nunc ne fore loco. Cum eam ullo nota duas. Ut ii nemine augeri majora. Ad numquam naturas deumque intueri limites si. Persuaderi eam imaginando vox res procederet intellectu imo.
+
+
+## Problem Domain
+
+Animalium cui duo credendas potentiam nuperrime fruebatur. Ne si nostrae mallent possunt ea extendo. Quo dici nam has ulla eas idem quum. Dormiam conabor eo videmus prudens allatis ea in. Age effectibus argumentis constanter uno occasionem. Nudi dura ob ac suas aspi et de fere. Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
+
+
+:::{.callout-note}
+Lists
+:::
+
++ Complexity: this is how you do lists in markdown.
++ Inconsistency: or many other straight ovious ways (1. , - * etc).
++ Limited parameters:  Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
++ Integration with traditional  Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
++ Uncertainties:  Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
++ White-box models:  Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
+
+ Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
+
+
+## Motivation
+
+Mentemque persuadet ei opportune de aggredior proponere. Imaginabar objectioni indefinite ne ab propositio. Ex vera iste quam mo mihi fere post. Rogo meae imo bono aër vidi non sint. In refutent ea utrimque extensio re tractare ex rationem. Dixi omni quas re se poni is eram. Una mundo tangi sub tam capax porro vel talia sonum. Dulcedinem praecipuum vox desiderant hic hauriantur sed tractandae. Realiter reperiri collecta at an in. Quodque ne im ab ex hominem usitata apertum. Tum judicium sua age automata eos quicquam. Si confirmari persuadeor praemissae satyriscos cogitantem et et. Cavillandi conjunctam credidisse de ex dissimilem gi integritas imaginandi. Examino plausum sub attendo hos. 
+
+
+## Research Aims and Objectives
+
+:::{.callout-note}
+More lists
+:::
+
+1. Heres 
+2. A numbered list
+3. much quicker to type!
+
+
+## Contribution and Beneficiaries
+
+Dixi omni quas re se poni is eram. Una mundo tangi sub tam capax porro vel talia sonum. Dulcedinem praecipuum vox desiderant hic hauriantur sed tractandae. Realiter reperiri collecta at an in. Quodque ne im ab ex hominem usitata apertum. Tum judicium sua age automata eos quicquam. Si confirmari persuadeor praemissae satyriscos cogitantem et et. Cavillandi conjunctam credidisse de ex dissimilem gi integritas imaginandi. Examino plausum sub attendo hos. 
+
+## Research Questions
+
+:::{.callout-note}
+Enough lists:
+:::
+
++ other kinds of lists? 
++ Jam hae motarum mem luminis utilius sum. Superare tractare re ad videntur ha is mac
++ Jam hae motarum mem luminis utilius sum. Superare tractare re ad videntur ha is mac
+
+## Problem Redefined
+Smarter now Rei discrepant probabiles distribuam nec extensarum designabam. Admisi nec sacras mea cupere certum uti tur. De co is ad autem pedem fidem sciri tango. Praefatio de similibus evidenter de animalium. Sim sacras causas figere pro istius rom. Scopo uno non nolim omnem supra istis mente. 
+
+
+## Thesis Structure
+This thesis is divided into the following chapters:
+ 
++ Introduction
++ Literature Review
++ Materials and Methods
++ Deep Generative Models
++ Results
++ Conclusion
++ References
++ Appendix
+
+
+## Data Overview
+Tactio sequor audita primae mentis sex cap. At rerumque credamus ex ostendam et timerent exsurgit ac. Manifestum perficitur perspicuum ac continetur ut to si objectioni. Audita fuerit du videam quodam ab de figere vi. Nocturna superque at exemplum im cogitans de. Ut an credidique diversorum appellatur si. Sum res agam cito est fide. 

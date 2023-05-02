@@ -1,0 +1,87 @@
+%%%%% CHOOSE YOUR LINE SPACING HERE
+% This is the official option.  Use it for your submission copy and library copy:
+\setlength{\textbaselineskip}{22pt plus2pt}
+% This is closer spacing (about 1.5-spaced) that you might prefer for your personal copies:
+%\setlength{\textbaselineskip}{18pt plus2pt minus1pt}
+
+% You can set the spacing here for the roman-numbered pages (acknowledgements, table of contents, etc.)
+\setlength{\frontmatterbaselineskip}{17pt plus1pt minus1pt}
+
+% Leave this line alone; it gets things started for the real document.
+\setlength{\baselineskip}{\textbaselineskip}
+
+%%%%% CHOOSE YOUR SECTION NUMBERING DEPTH HERE
+% You have two choices.  First, how far down are sections numbered?  (Below that, they're named but
+% don't get numbers.)  Second, what level of section appears in the table of contents?  These don't have
+% to match: you can have numbered sections that don't show up in the ToC, or unnumbered sections that
+% do.  Throughout, 0 = chapter; 1 = section; 2 = subsection; 3 = subsubsection, 4 = paragraph...
+
+% The level that gets a number:
+\setcounter{secnumdepth}{2}
+% The level that shows up in the ToC:
+\setcounter{tocdepth}{2}
+
+
+%%%%% ABSTRACT SEPARATE
+% This is used to create the separate, one-page abstract that you are required to hand into the Exam
+% Schools.  You can comment it out to generate a PDF for printing or whatnot.
+\begin{abstractseparate}
+	\input{frontmatter/03-abstract.txt} % Create an abstract.tex file in the 'text' folder for your abstract.
+\end{abstractseparate}
+
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+% JEM: Pages are roman numbered from here, though page numbers are invisible until ToC.  This is in
+% keeping with most typesetting conventions.
+\pagenumbering{roman}
+
+\begin{romanpages}
+
+% Title page is created here
+\maketitle
+
+%%%%% DEDICATION -- If you'd like one, un-comment the following.
+
+\begin{dedication}
+    \input{frontmatter/01-dedication.txt}
+\end{dedication}
+
+%%%%% Declaration -- Nothing to do here except comment out if you don't want it.
+
+\begin{declaration}
+\addcontentsline{toc}{chapter}{Declaration}
+	\input{frontmatter/02-declaration.txt}
+    \vspace{0.5em}
+    \begin{flushright}
+      \includegraphics[width=4 cm]{frontmatter/figs/signature.jpg}
+    \end{flushright}
+    \vspace{0.5em}
+    \begin{flushright}
+      {\large \textit{$author$}}
+    \end{flushright}
+    \vspace{0.5em}
+    \noindent Word Count: $wordcount$
+    \vfill
+    \noindent This thesis was conducted under the supervision of $supervisors$.
+    \vspace{2cm}
+\end{declaration}
+
+%%%%% ABSTRACT -- Nothing to do here except comment out if you don't want it.
+
+\begin{abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+	\input{frontmatter/03-abstract.txt}
+\end{abstract}
+
+%%%%% ACKNOWLEDGEMENTS -- Nothing to do here except comment out if you don't want it.
+
+\begin{acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+ 	\input{frontmatter/04-acknowledgements.txt}
+\end{acknowledgements}
+
+% This aligns the bottom of the text of each page.  It generally makes things look better.
+\flushbottom
+

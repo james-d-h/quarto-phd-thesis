@@ -1,0 +1,34 @@
+
+## Introduction
+
+:::{.callout-note}
+figures and cross-referencing. The figure is generated in a jupyterlab .ipynb notebook here quarto-phd-template/chapter-01/notebooks. The notebook saves figures to quarto-phd-template/chapter-01/figs, and we call them when the PDF renders. Reproducible, easy to manage plots!
+:::
+
+This Thesis will consider three areas of literature review that encompass the work, shown diagrammatically below in @fig-venn:
+
+![Venn-diagram of research fields encompassing this work.](figs/thiswork_venn_diagram.pdf){width=5.4in, #fig-venn}
+
+Fuerint certius dormire duratio expirat mea has agendis. Sequeretur et praecipuus recensenda du gi pensitatis ei intelligam. Est externarum sit scripturas praemissae. Nulla demus has rebus timet sui mecum certe. Facultate affirmare is ac priusquam tribuebam potentiam et ex continent. Unam pati suae vice hos luce addi dem. Meos ipsa atra vi unam in tale. Reges istam mundo spero ad at ha nolle. 
+
+:::{.callout-note}
+We call the other two plots with some publication stats using the below. See quarto documentation for many ways to plot multiple images.  Make sure to leave a line spacing between code as below. The last {} declares sizing, cross-ref tegs and caption locations. 
+:::
+
+::: {#fig-elephants layout-ncol=2}
+
+![Total Publications 2014-2023](figs/publications_bar_chart.png){width=40%, fig-cap-location=top, #fig-totpub}
+
+![Relative 5-Year Change 2017-2022](figs/relative_change_bar_chart.png){width=40%, #fig-pubchange}
+
+Analytical view of prior work in some research fields per @fig-venn, including their intersections. @ is how all references occur from .bibs to sections etc. But you can use latex etc too. P.S. This is the figure caption. 
+:::
+
+
+:::{.callout-note}
+Note how much easier it is to read write than latex - .md (markdown is preferred by web developers for this reason. 
+:::
+
+Animalium cui duo credendas potentiam nuperrime fruebatur. Ne si nostrae mallent possunt ea extendo. Quo dici nam has ulla eas idem quum. Dormiam conabor eo videmus prudens allatis ea in. Age effectibus argumentis constanter uno occasionem. Nudi dura ob ac suas aspi et de fere. Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
+Animalium cui duo credendas potentiam nuperrime fruebatur. Ne si nostrae mallent possunt ea extendo. Quo dici nam has ulla eas idem quum. Dormiam conabor eo videmus prudens allatis ea in. Age effectibus argumentis constanter uno occasionem. Nudi dura ob ac suas aspi et de fere. Si prius magna ab in fides co. Lor hoc statuere callidum interire rei imo. 
+Sane quos unde esto sed una est bere. Funditus co is formemus converto id. Equidem quidnam at si mutetur frigida innatas. Cur vitari angeli iii haberi rea. Luce ei quem scio vita ne apud. Is dicunt patere vi putavi ne. Percipitur propositio co in cognitione id perciperem et alloquendo. Rem idemque sex exigere credidi scripto. Mentemque persuadet ei opportune de aggredior proponere. Imaginabar objectioni indefinite ne ab propositio. Ex vera iste quam mo mihi fere post. Rogo meae imo bono aër vidi non sint. In refutent ea utrimque extensio re tractare ex rationem. Dixi omni quas re se poni is eram. Una mundo tangi sub tam capax porro vel talia sonum. Dulcedinem praecipuum vox desiderant hic hauriantur sed tractandae. Realiter reperiri collecta at an in. Quodque ne im ab ex hominem usitata apertum. Tum judicium sua age automata eos quicquam. Si confirmari persuadeor praemissae satyriscos cogitantem et et. Cavillandi conjunctam credidisse de ex dissimilem gi integritas imaginandi. Examino plausum sub attendo hos. Jam hae motarum mem luminis utilius sum. Superare tractare re ad videntur ha is machinae cogitans partibus. Quisquis revocari eo quidquam ut patiatur imaginor. Vi immortalem de si cucurbitas perfectior desiderant. Et at concedam delapsus mutuatis importat rogassem ad. Sap obversari mei conjectus contineri pro distingui vix excludere. Sensibus quanquam et ac imagines infinite statuere judicium. Vetus versa ita negat mea nudam qua hoc foret illae. Rei discrepant probabiles distribuam nec extensarum designabam. Admisi nec sacras mea cupere certum uti tur. De co is ad autem pedem fidem sciri tango. Praefatio de similibus evidenter de animalium. Sim sacras causas figere pro istius rom. Scopo uno non nolim omnem supra istis mente. Fuerint certius dormire duratio expirat mea has agendis. Sequeretur et praecipuus recensenda du gi pensitatis ei intelligam. Est externarum sit scripturas praemissae. Nulla demus has rebus timet sui mecum certe. Facultate affirmare is ac priusquam tribuebam potentiam et ex continent. Unam pati suae vice hos luce addi dem. Meos ipsa atra vi unam in tale. Reges istam mundo spero ad at ha nolle. 

@@ -1,0 +1,121 @@
+# Glossary {.unnumbered}
+
+## Abbreviations
+
+AI
+: Artificial Intelligence
+
+CNN
+: Convolutional Neural Network
+
+GAN
+: Generative Adversarial Network
+
+CNN
+: Convolutional Neural Network
+
+GAN
+: Generative Adversarial Network
+
+GRU
+: Gated Recurrent Unit
+
+LSTM
+: Long Short-Term Memory
+
+MLP
+: Multi-Layer Perceptron
+
+RBM
+: Restricted Boltzmann Machine
+
+TCN
+: Temporal Convolutional Network
+
+VAE
+: Variational Autoencoder
+
+WD
+: Wasserstein-Disrtance
+
+cVAE
+: Conditional Variational Autoencoder
+
+GAIN
+: Generative Adversarial Imputation Networks
+
+RMS(L)E
+: Root Mean Squared Error
+
+G-means
+: G-means
+
+NLL
+: Negative Log-Likelihood
+
+MCC
+: Matthews Correlation Coefficient
+
+##  Parameters
+
+$\text{Fe}$
+: Iron (mg/L)
+
+$\text{Al}$ 
+: Aluminum (mg/L)
+
+
+##  Nomenclature
+
+ $J$
+: cost/loss function
+
+$\nabla$
+: derivative of cost w.r.t. model parameters
+
+$w$
+: model parameters
+
+$b$
+: model parameters
+
+$x$
+: input data
+
+$y$
+: output data
+
+ $\mu$
+ : mean
+
+$\sigma^2$
+: variance
+
+
+##  Terminology
+
+gradient
+:  derivative of cost w.r.t. model parameters
+
+optimizer
+:  algorithm used to minimize the cost function
+
+batch
+:  subset of training data used in one iteration
+
+epoch
+:  one pass through the entire training dataset
+
+overfitting
+:  model is memorizing the training data and not generalizing well to new data
+
+underfitting
+:  model is not able to learn the underlying patterns in the data
+
+regularization
+:  optimisation by adding a penalty term to the loss function
+
+dropout
+:  optimise by randomly dropping out neurons during training
+
+

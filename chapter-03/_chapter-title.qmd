@@ -1,0 +1,94 @@
+# Functions
+
+1. This is the folder structure generated when you call the cell in quarto-phd-template/create-chapter.ipynb. It determines your next chapter from the repo.
+
+2. The ascii-repo.ipynb creates diagrams of the current folder structure, the first to one level the latter all the way.  The structure is flexible, except index.qmd and _quarto.yml must stay. References to impotant environmental legislation is also siple to do, and much the same as latex @ca1.
+
+3. Change quarto-phd-template/frontmatter/figs/signature.jpg for your own to apear at the declaration. Same for the uni crest in the same folder. index.qmd contains the Glossary - in simple Markdown. you can wrap that into invisible tables if you wish more control. 
+
+```{md}
+├── .quarto/
+│   ├── cites/
+│   ├── idx/
+│   └── xref/
+├── _book/
+│   └── uoe-thesis.pdf
+├── _configs/
+│   └── matplotlibrc.txt
+├── chapter-00/
+│   └── _introduction.qmd
+├── chapter-01/
+│   ├── 01-intro.qmd
+│   ├── 02-wq.qmd
+│   ├── 03-eo.qmd
+│   ├── 05-ai.qmd
+│   ├── _literature-review.qmd
+│   ├── figs/
+│   ├── images/
+│   ├── litreview.qmd
+│   ├── notebooks/
+│   └── tables/
+├── chapter-02/
+│   └── _materials&methods.qmd
+├── chapter-03/
+│   ├── _chapter-title.qmd
+│   ├── figs/
+│   ├── images/
+│   ├── notebooks/
+│   └── tables/
+├── endmatter/
+│   ├── appendix/
+│   ├── bibliography/
+│   └── oldfigures/
+├── frontmatter/
+│   ├── 01-dedication.txt
+│   ├── 02-declaration.txt
+│   ├── 03-abstract.txt
+│   ├── 04-acknowledgements.txt
+│   ├── before-body.tex
+│   ├── figs/
+│   ├── header.tex
+│   ├── title.tex
+│   └── toc.tex
+```
+
+4. The _quarto.yml specifies some variables and your document structure, make sure to declare them in there if you change relevent file names or paths, or create new files you want to include take note of the structure above and the .yml below. To get this chapter to print, I will have to add "- chapter-03/_chapter-title.qmd" to the .yml file below.  No need to worry about figures etc. 
+
+```{yml}
+project:
+  type: book
+book:
+  chapters:
+    - index.qmd
+    - chapter-00/_introduction.qmd
+    - chapter-01/_literature-review.qmd
+    - chapter-02/_materials&methods.qmd
+    - endmatter/bibliography/_references.qmd
+  appendices:
+    - endmatter/appendices/appendix-a.qmd
+
+title: Deep models for shallow waters
+author: James Harding
+college: School for Infrastructure and Environment
+degree: Doctor of Philosophy
+year: 2023
+format:
+  pdf:
+    keep-tex: false 
+    documentclass: uoe-thesis-template
+    classoption: [twoside]
+    papersize: a4
+    template-partials:
+    - frontmatter/title.tex
+    - frontmatter/before-body.tex
+    - frontmatter/toc.tex
+    include-in-header:
+    - frontmatter/header.tex
+supervisors: |
+  Dr Dre.
+wordcount: |
+  tbc
+keywords: [template, demo]
+bibliography: endmatter/bibliography/wq.bib
+```
+

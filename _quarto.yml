@@ -1,0 +1,36 @@
+project:
+  type: book
+book:
+  chapters:
+    - index.qmd
+    - chapter-00/_introduction.qmd
+    - chapter-01/_literature-review.qmd
+    - chapter-02/_materials&methods.qmd
+    - chapter-03/_chapter-title.qmd
+    - endmatter/bibliography/_references.qmd
+  appendices:
+    - endmatter/appendices/appendix-a.qmd
+
+title: Deep models for shallow waters
+author: James Harding
+college: School for Infrastructure and Environment
+degree: Doctor of Philosophy
+year: 2023
+format:
+  pdf:
+    keep-tex: false 
+    documentclass: uoe-thesis-template
+    classoption: [twoside]
+    papersize: a4
+    template-partials:
+    - frontmatter/title.tex
+    - frontmatter/before-body.tex
+    - frontmatter/toc.tex
+    include-in-header:
+    - frontmatter/header.tex
+supervisors: |
+  Dr Dre.
+wordcount: |
+  tbc
+keywords: [template, demo]
+bibliography: endmatter/bibliography/wq.bib
