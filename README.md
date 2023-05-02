@@ -3,10 +3,10 @@
 # Quarto Template PhD Thesis - Edinburgh University 
 
 <p align="center">
-  <img src="./examples/title-page.png" alt="title-page" width="23%" />
-  <img src="./examples/declaration.png" alt="declaration" width="23%" />
-  <img src="./examples/chapter-01.png" alt="chapter-01" width="23%" />
-  <img src="./examples/figures.png" alt="figures" width="23%" />
+  <img src="./examples/title-page.png" alt="title-page" width="25%" />
+  <img src="./examples/declaration.png" alt="declaration" width="25%" />
+  <img src="./examples/chapter-01.png" alt="chapter-01" width="25%" />
+  <img src="./examples/figures.png" alt="figures" width="25%" />
 </p>
 
 
