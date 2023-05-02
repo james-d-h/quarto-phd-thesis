@@ -5,7 +5,7 @@
 <p align="center">
   <img src="./examples/title-page.png" alt="title-page" width="24.5%" />
   <img src="./examples/declaration.png" alt="declaration" width="24.5%" />
-  <img src="./examples/chapter-01.png" alt="chapter-01" width="24.%" />
+  <img src="./examples/chapter-01.png" alt="chapter-01" width="24.5%" />
   <img src="./examples/figures.png" alt="figures" width="24.5%" />
 </p>
 
