@@ -2,11 +2,9 @@
 
 # Quarto PhD Thesis Template 
 
+This repository contains a custom Quarto template designed for my PhD thesis at the University of Edinburgh. It can be easily adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
 
-
-This repository contains a custom Quarto template designed for my PhD thesis at the University of Edinburgh. [PDF preview available here](_book/quarto-phd-template.pdf) 
-
-It can be easily adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
+[PDF preview available here](_book/quarto-phd-template.pdf) 
 
 ## Introduction
 
@@ -19,7 +17,7 @@ A simple function is provided in create-chapter.ipynb, calling it will generate 
 ## Repository / Thesis Structure
 The repository is organized to mirror the structure of the thesis document. The index.qmd and _quarto.yml files can be edited as needed, but they cannot be deleted or renamed. The following diagram provides an overview of the template structure. Consult the code in the repository for a better understanding of how Quarto ties everything together.
 
-```md
+```python
 ├── _book/
 │   └── uoe-thesis.pdf         # calling quarto render from terminal produces your thesis here
 ├── _configs/                  # A folder for global config files; reproducible/consistent plots all Thesis 
@@ -67,6 +65,7 @@ The repository is organized to mirror the structure of the thesis document. The 
 3. Modify the _configs file to format graph or figure styling (see Chapter 1 for examples)
 4. Run the create-chapter.ipynb notebook to generate new chapter folders and resource folders as needed.
 5. Use the ascii-dir script to visualize the structure of your repository at single or full levels.
+6. Call quarto render in the terminal in the main directory.
 
 ## Requirements
 
