@@ -2,6 +2,8 @@
 
 # Quarto Template PhD Thesis - Edinburgh University 
 
+This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
+
 <p align="center">
   <img src="./examples/title-page.png" alt="title-page" width="24.5%" />
   <img src="./examples/declaration.png" alt="declaration" width="24.5%" />
@@ -9,10 +11,7 @@
   <img src="./examples/figures.png" alt="figures" width="24.5%" />
 </p>
 
-
-This repository contains a Quarto template - PhD thesis at the University of Edinburgh. It can be adapted for general use; for other institutions; or for similar use cases such as Masters Dissertations or Theses.
-
-[PDF preview available here](_book/quarto-phd-template.pdf) 
+[Full PDF preview available here](_book/quarto-phd-template.pdf)
 
 ## Introduction
 
