@@ -31,7 +31,6 @@ the above code just inserts a table written in another file to keep this area cl
 
 {{< pagebreak >}}
 
-
 :::{.callout-note}
 Or you can insert csv files directly, and navigate through them or select variables. and of course you can still do things the latex way, such as for images:
 :::
@@ -39,17 +38,17 @@ Or you can insert csv files directly, and navigate through them or select variab
 ```{=latex}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1.\textwidth]{l7l8s2bands}
+    \includegraphics[width=1.\textwidth]{chapter-01/figs/l7l8s2bands.png}
     \caption{Spectral response of Landsat 7, Landsat 8 and Sentinel 2 over the electromagnetic spectrum.}
     \label{l7l8s2bands}
 \end{figure}
 ```
 
-
 :::{.callout-note}
  many ways to do equations too:
 :::
 
+Some text
 
  ```{=latex}
  \begin{equation}

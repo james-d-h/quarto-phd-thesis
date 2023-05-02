@@ -6,7 +6,7 @@
 
 3. Change quarto-phd-template/frontmatter/figs/signature.jpg for your own to apear at the declaration. Same for the uni crest in the same folder. index.qmd contains the Glossary - in simple Markdown. you can wrap that into invisible tables if you wish more control. 
 
-```{md}
+```md
 ├── .quarto/
 │   ├── cites/
 │   ├── idx/
@@ -54,7 +54,7 @@
 
 4. The _quarto.yml specifies some variables and your document structure, make sure to declare them in there if you change relevent file names or paths, or create new files you want to include take note of the structure above and the .yml below. To get this chapter to print, I will have to add "- chapter-03/_chapter-title.qmd" to the .yml file below.  No need to worry about figures etc. 
 
-```{yml}
+```yml
 project:
   type: book
 book:
