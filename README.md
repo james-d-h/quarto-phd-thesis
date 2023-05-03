@@ -9,10 +9,10 @@
 [PDF preview click here](_book/quarto-phd-template.pdf), select pages:
 
 <p align="center">
-  <img src="./examples/title-page.png" alt="title-page" width="24.5%" />
-  <img src="./examples/declaration.png" alt="declaration" width="24.5%" />
-  <img src="./examples/chapter-01.png" alt="chapter-01" width="24.5%" />
-  <img src="./examples/figures.png" alt="figures" width="24.5%" />
+  <img src="./examples/title-page.png" alt="title-page" width="23%" />
+  <img src="./examples/declaration.png" alt="declaration" width="23%" />
+  <img src="./examples/chapter-01.png" alt="chapter-01" width="23%" />
+  <img src="./examples/figures.png" alt="figures" width="23%" />
 </p>
 
 # Install & Usage
