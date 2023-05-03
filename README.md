@@ -25,7 +25,7 @@ Follow the steps below to clone, customize, and build the document.
 2. Install JupyterLab: Follow the installation instructions on the official JupyterLab website: https://jupyter.org/install
 3. Install Git: Download and install Git from the official website: https://git-scm.com/downloads
 4. Install Quarto: Follow the installation instructions on the official Quarto website: https://quarto.org/docs/installation.html
-5. Install JetBrains Mono font and STIX 2 (Google Fonts) for Math font https://github.com/JetBrains/JetBrainsMono. You may need to reset your matplotlib font cache.
+5. Install Cormorant Garamond, JetBrains Mono and STIX 2 for font styling available at https://github.com/JetBrains/JetBrainsMono or Google Fonts. You may need to reset your matplotlib font cache.
 
 ### Clone the Repository
 1. Open a terminal or command prompt.
